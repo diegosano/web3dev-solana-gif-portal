@@ -1,14 +1,16 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
-myepicproject = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+# esse id é o que o terminal mostrar depois de rodar o comando
+# solana address -k target/deploy/myepicproject-keypair.json
+myepicproject = "G855bxSdfF5sS3U5rry4TJPh7NKJjhmapWdaKJfCMCT6"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/diegosano/.config/solana/id.json"
 
 [scripts]

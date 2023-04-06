@@ -1,6 +1,8 @@
 use anchor_lang::prelude::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+// esse id é o que o terminal mostrar depois de rodar o comando
+// solana address -k target/deploy/myepicproject-keypair.json
+declare_id!("G855bxSdfF5sS3U5rry4TJPh7NKJjhmapWdaKJfCMCT6");
 
 #[program]
 pub mod myepicproject {
